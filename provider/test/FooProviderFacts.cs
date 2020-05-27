@@ -41,8 +41,8 @@ namespace Sample.Provider.Pacts
                 var pactVerifier = new PactVerifier(config);
 
                 pactVerifier
-                    .ServiceProvider("Bar", serviceUri)
-                    .HonoursPactWith("Foo")
+                    .ServiceProvider("example-pact-net-provider", serviceUri)
+                    .HonoursPactWith("example-pact-net-consumer")
                     .PactUri(
                         "https://test.pact.dius.com.au/pacts/provider/Bar/consumer/Foo/latest",
                         new PactUriOptions("dXfltyFMgNOFZAxr8io9wJ37iUpY42M", "O5AIZWxelWbLvqMd8PkAVycBJh2Psyg1"))

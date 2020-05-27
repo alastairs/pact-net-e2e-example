@@ -15,8 +15,8 @@ namespace Sample.Consumer.Pacts
                 SpecificationVersion = "2",
                 PactDir = "spec/pacts"
             })
-            .ServiceConsumer("Foo")
-            .HasPactWith("Bar");
+            .ServiceConsumer("example-pact-net-consumer")
+            .HasPactWith("example-pact-net-provider");
 
             MockProviderService = PactBuilder.MockService(_port);
         }
