@@ -13,7 +13,7 @@ namespace Sample.Consumer.Pacts
             PactBuilder = new PactBuilder(new PactConfig
             {
                 SpecificationVersion = "2",
-                PactDir = "spec/pacts"
+                PactDir = "../../../spec/pacts"
             })
             .ServiceConsumer("example-pact-net-consumer")
             .HasPactWith("example-pact-net-provider");

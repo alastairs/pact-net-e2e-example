@@ -44,7 +44,7 @@ backwards-compatible with the 2.1 LTS SDK and forwards-compatible with the 5.0 p
     & dotnet test Sample.$_.sln
   }
   ```
-* You will find the pact file in `consumer/spec/pacts/foo-bar.json`
+* You will find the pact file in `consumer/spec/pacts/example-pact-net-consumer-example-pact-net-provider.json`
 * To run just the consumer specs and generate the pact: `dotnet test Sample.Consumer.sln`
 * To run just the provider verification: `dotnet test Sample.Provider.sln`
 

@@ -44,7 +44,7 @@ namespace Sample.Provider.Pacts
                     .ServiceProvider("example-pact-net-provider", serviceUri)
                     .HonoursPactWith("example-pact-net-consumer")
                     .PactUri(
-                        "https://test.pact.dius.com.au/pacts/provider/Bar/consumer/Foo/latest",
+                        "https://test.pact.dius.com.au/pacts/provider/example-pact-net-provider/consumer/example-pact-net-consumer/latest",
                         new PactUriOptions("dXfltyFMgNOFZAxr8io9wJ37iUpY42M", "O5AIZWxelWbLvqMd8PkAVycBJh2Psyg1"))
                     .Verify();
             }

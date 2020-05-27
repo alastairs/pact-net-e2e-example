@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\..\consumer\spec\pacts\foo-bar.json" Link="foo-bar.json">
+    <None Include="..\..\consumer\spec\pacts\example-pact-net-consumer-example-pact-net-provider.json" Link="example-pact-net-consumer-example-pact-net-provider.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>

@@ -66,7 +66,7 @@ namespace Sample.Consumer.Pacts
                 "https://test.pact.dius.com.au",
                 new PactUriOptions("dXfltyFMgNOFZAxr8io9wJ37iUpY42M", "O5AIZWxelWbLvqMd8PkAVycBJh2Psyg1"));
             pactPublisher.PublishToBroker(
-                @"../../../spec/pacts/foo-bar.json",
+                @"../../../spec/pacts/example-pact-net-consumer-example-pact-net-provider.json",
                 "1.0.0", new [] { "master" });
         }
     }
